@@ -28,7 +28,7 @@ PATH_IMAGES = r'data_input'
 
 # carrega credenciais
 load_dotenv()
-genai.configure(api_key="AIzaSyAmAdzuWTs3b6QaWGRU0PeU1YCENn37O0M")
+genai.configure(api_key="--")
 
 # define modelo
 model_name = 'gemini-1.5-pro'
